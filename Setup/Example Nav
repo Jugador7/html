@@ -1,0 +1,10 @@
+<body>
+  <nav>
+    <div class = "menu">
+      <a href="#">Home</a>
+      <a href="about.html">About</a>
+      <a href="register.html">Register</a>
+      <a href="#">Sign In</a>
+  </nav>
+  <h1>Pages for your</h1>
+</body>
