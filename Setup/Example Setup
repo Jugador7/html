@@ -22,9 +22,21 @@
         <section>
         Representa la separación lógica de un documento como los capitulos de un libro. Va dentro de un div
         </section>
+        <aside>
+        Provee información adicional relacionada a la discusión principal, se uisa para precauciones, notas o arropar links de navegación. 
+        </aside>
+        <figure>
+        Elemento auto contenido del que se hace referencia en el contenido principal. Guarda gráficos, fotos y segmentos de código. Se puede mover a un apendice. 
+        </figure>
+        <figurecaption>
+        Define el caption para los contenidos del elemento figure
+        </figurecaption>
         <div>
         This element has no particular semantic meaning but is often used in conjunction with CSS for styling purposes. Se usa con <time pubdate ...> para poner fecha de publicación
         </div>
+        <nav>
+        Enlaces de navegación
+        </nav>
         <!-- This is a comment -->
         ...
         <h1 id="section">Section</h1>
