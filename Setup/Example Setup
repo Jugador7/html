@@ -37,6 +37,25 @@
         <nav>
         Enlaces de navegación
         </nav>
+        <audio>
+          <source src="soundtrack.mp3" type="audio/mpeg">
+          <source src="soundtrack.ogg" type="audio/ogg">
+          Your browser does not support the audio formats provided.
+        </audio>
+        <canvas>
+            Your browser does not support the canvas tag.
+        </canvas>
+            <script>
+                var canvas = document.getElementsByTagName("canvas")[0];
+                var context = canvas.getContext("2d");
+                context.fillRect(0, 0, 100, 100);
+            </script>
+        <embed type="text/html" src="another_webpage.html">
+        <video>
+          <source src="common_html_elements.mp4" type="video/mp4">
+          <track src="english_subtitles.vtt" kind="subtitles" srclang="en" label="English">
+          <track src="spanish_subtitles.vtt" kind="subtitles" srclang="es" label="Spanish">
+        </video>
         <!-- This is a comment -->
         ...
         <h1 id="section">Section</h1>
