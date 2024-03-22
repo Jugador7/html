@@ -56,6 +56,12 @@
           <track src="english_subtitles.vtt" kind="subtitles" srclang="en" label="English">
           <track src="spanish_subtitles.vtt" kind="subtitles" srclang="es" label="Spanish">
         </video>
+        <input type="text" list="fruits">
+        <datalist id="fruits">
+            <option value="apples"></option>
+            <option value="bananas"></option>
+            <option value="oranges"></option>
+        </datalist>
         <!-- This is a comment -->
         ...
         <h1 id="section">Section</h1>
